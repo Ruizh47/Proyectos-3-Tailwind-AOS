@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="absolute bg-transparent flex justify-between px-8 items-center w-screen h-[90px] 2xl:justify-around 2xl:px-0">
+        <img class="w-[110px] h-[30px] xl:w-[200px] xl:h-[52px] xl:mt-[20px]" src="img/netflix-logo.png" alt="">
+        <div class="">
+            <select class="bg-[#3333334d] border-2 rounded-[5px] border-[#5F5F5F] text-white py-[6px]" name="idioma">
+
+                <option>español</option>
+                
+                <option>Ingles</option>
+                
+            </select>
+            <button class="bg-[#E50914] text-[18px] text-white px-4 py-[5px] rounded-[5px]">Iniciar sesion</button>
+        </div>
+    </header>
+
+    <main class="bg-[url('img/Netflix-Background.png')] w-screen h-[580px]  flex flex-col justify-center items-center px-[40px] pt[200px] border-b-[10px] border-[#292929]">
+        <h1 class="text-white text-[40px] font-bold text-center pt-[90px] pb-[5px]">Películas y series ilimitadas y mucho más
+        </h1>
+        <h2 class="text-white text-[21px] font-normal text-center pb-[25px]">Disfruta donde quieras. Cancela cuando quieras.
+        </h2>
+        <h2 class="text-white text-[21px] font-normal text-center">¿Quieres ver Netflix ya? Ingresa tu email para crear
+        </h2>
+        <h2 class="text-white text-[20px] font-normal text-center pb-[18px]"> una cuenta o reiniciar tu membresía de Netflix.</h2>
+        <div class="flex flex-col justify-center items-center md:flex-row md:gap-[10px]">
+            <input class="bg-[#0e0e0e98] border-2 rounded-[5px] border-[#5F5F5F] py-[10px] w-[480px] px-[10px] text-[20px]" type="text" placeholder="Email">
+            <button class="text-white font-[500] text-[22px] text-center bg-[#E50914] w-[200px] py-[10px] rounded-[5px] mt-[20px] md:mt-0">Comenzar ></button>
+        </div>
+    </main>
+
+    <section class="flex flex-col w-screen h-[700px] bg-black items-center px-[10px] border-b-[10px] border-[#292929] lg:flex-row lg:justify-around">
+        <div class="lg:justify-start lg:items-start lg:w-[350px]">
+            <h1 class="text-white text-[40px] font-bold text-center pt-[60px] pb-[5px]">Disfruta en tu TV
+            </h1>
+            <h2 class="text-white text-[21px] font-normal text-center">Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.
+            </h2>
+        </div>
+        <img class="pt-[100px] w-[550px] h-[470px]" src="img/televisor.png" alt="">
+    </section>
+
+    
+    <section class="flex flex-col w-screen h-[700px] bg-black items-center px-[10px] border-b-[10px] border-[#292929] lg:flex-row lg:justify-around">
+        <div class="lg:justify-start lg:items-start lg:w-[350px]">
+            <h1 class="text-white text-[40px] font-bold text-center pt-[60px] pb-[5px]">Descarga tus series para verlas offline
+            </h1>
+            <h2 class="text-white text-[21px] font-normal text-center">Guarda tu contenido favorito y tendrás siempre algo para ver.
+            </h2>
+        </div>
+        <img class="pt-[80px] w-[310px] h-[480px]" src="img/telef.png" alt="">
+    </section>
+
+    <section class="flex flex-col w-screen h-[700px] bg-black items-center px-[10px] border-b-[10px] border-[#292929] lg:flex-row lg:justify-around">
+        <div class="lg:justify-start lg:items-start lg:w-[350px]">
+        <h1 class="text-white text-[40px] font-bold text-center pt-[60px] pb-[5px]">Disfruta donde quieras
+        </h1>
+        <h2 class="text-white text-[21px] font-normal text-center">Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.
+        </h2>
+        </div>
+        <img class="pt-[100px] w-[550px] h-[470px]" src="img/dispositivos.png" alt="">
+    </section>
+
+    <section class="flex flex-col w-screen h-[700px] bg-black items-center px-[10px] border-b-[10px] border-[#292929] lg:flex-row lg:justify-around">
+        <div class="lg:justify-start lg:items-start lg:w-[350px]">
+        <h1 class="text-white text-[40px] font-bold text-center pt-[60px] pb-[5px]">Crea perfiles para niños
+        </h1>
+        <h2 class="text-white text-[21px] font-normal text-center">Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.
+        </h2>
+        </div>
+        <img class="pt-[100px] w-[500px] h-[470px]" src="img/niño.png" alt="">
+    </section>
+
+    <section class="flex flex-col w-screen h-[1000px] bg-black items-center px-[10px] border-b-[10px] border-[#292929] gap-[10px]">
+        <h1 class="text-white text-[40px] font-bold text-center pt-[60px] pb-[5px]">Preguntas frecuentes
+        </h1>
+        <div class="bg-[#2D2D2D] flex justify-between items-center px-[30px] w-[560px] h-[80px]">
+            <h2 class="text-white text-[23px]">Que es Netflix?</h2>
+            <h2 class="text-white text-[40px]">+</h2>
+        </div>
+        <div class="bg-[#2D2D2D] flex justify-between items-center px-[30px] w-[560px] h-[80px]">
+            <h2 class="text-white text-[23px]">Cuanto cuesta Netflix?</h2>
+            <h2 class="text-white text-[40px]">+</h2>
+        </div>
+        <div class="bg-[#2D2D2D] flex justify-between items-center px-[30px] w-[560px] h-[80px]">
+            <h2 class="text-white text-[23px]">Donde puedo ver Netflix?</h2>
+            <h2 class="text-white text-[40px]">+</h2>
+        </div>
+        <div class="bg-[#2D2D2D] flex justify-between items-center px-[30px] w-[560px] h-[80px]">
+            <h2 class="text-white text-[23px]">Como cancelo?</h2>
+            <h2 class="text-white text-[40px]">+</h2>
+        </div>
+        <div class="bg-[#2D2D2D] flex justify-between items-center px-[30px] w-[560px] h-[80px]">
+            <h2 class="text-white text-[23px]">Que puedo ver en Netflix?</h2>
+            <h2 class="text-white text-[40px]">+</h2>
+        </div>
+        <div class="bg-[#2D2D2D] flex justify-between items-center px-[30px] w-[560px] h-[80px]">
+            <h2 class="text-white text-[23px]">Es bueno Netflix para los niños?</h2>
+            <h2 class="text-white text-[40px]">+</h2>
+        </div>
+        <h2 class="text-white text-[21px] font-normal text-center pt-[40px]">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+        </h2>
+        <input class="bg-[#0e0e0e98] border-2 rounded-[5px] border-[#5F5F5F] py-[10px] w-[450px] px-[10px] text-[20px]" type="text" placeholder="Email">
+        <button class="text-white font-[500] text-[22px] text-center bg-[#E50914]  px-[20px] py-[10px] rounded-[5px] mt-[10px]">Comenzar ></button>
+    </section>
+
+    <section class="flex flex-col w-screen h-[500px] bg-black items-start px-[10px] border-b-[10px] border-[#292929] gap-[10px] pt-[30px] px-[25px]">
+        <p class="text-[#B3B3B3] text-[20px]">¿Preguntas? Llama al 1 (408) 469-4467 (USA)</p>
+        <div class="flex flex-row py-[15px]">
+            <div class="lg:flex flex-row">
+                <div class="flex flex-col gap-[10px] lg:pr-[10px]">
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Preguntas frecuentes</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Cuenta</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Relaciones con inversionistas</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Formas de ver</a>
+                </div>
+                <div class="flex flex-col gap-[10px] pt-[10px]">
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Privacidad</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Información corporativa</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Prueba de velocidad</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Solo en Netflix</a>
+                </div>
+            </div>
+            <div class="lg:flex flex-row">
+                <div class="flex flex-col px-[50px] gap-[10px]">
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Centro de ayuda</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Prensa</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Empleo</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Términos de uso</a>
+                </div>
+                <div class="flex flex-col px-[50px] gap-[10px] pt-[10px]">
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Preferencias de cookies</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Contáctanos</a>
+                    <a class="text-[#B3B3B3] text-[18px] underline decoration-1" href="">Avisos legales</a>
+                </div>
+            </div>
+        </div>
+        <select class="bg-[#3333334d] border-2 rounded-[5px] border-[#5F5F5F] text-white px-[20px] py-[10px]" name="idioma">
+
+            <option>Español</option>
+            
+            <option>Ingles</option>
+            
+        </select>
+        <p class="text-[#B3B3B3] text-[16px]">Netflix Venezuela</p>
+    </section>
+    
+</body>
+</html>

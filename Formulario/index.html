@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gradient-to-l from-[#3f9b62] to-[#6da080] flex justify-center items-center">
+    <div class="flex flex-col justify-center items-center w-[80%] lg:w-[70%] border-[10px] rounded-[15px] border-double border-[#6dbe8c] bg-[#2c6843] gap-[10px] mt-[50px]">
+        <div class="bg-[#b2e4c4] h-[80px] w-full border-b-4 border-solid border-[#6dbe8c] justify-center items-center flex">
+            <h1 class="text-center text-[40px] text-[#2c6843] font-bold">
+            Formulario
+            </h1>
+        </div>
+
+        <form class="flex flex-col px-[15px]" action="">
+            <label class="text-[24px] text-white font-semibold" for="">Nombre</label>
+            <input class="bg-transparent border-solid border-2 border-[#7edfa3] rounded-[10px] text-white text-[20px] px-[10px] mb-[20px]" type="text" name="nombre" id="">
+
+            <label class="text-[24px] text-white font-semibold" for="">Apellido</label>
+            <input class="bg-transparent border-solid border-2 border-[#7edfa3] rounded-[10px] text-white text-[20px] px-[10px] mb-[20px]" type="text" name="apellido" id="">
+
+            <div class="flex gap-[10px]">
+
+                <div>
+
+                    <label class="text-[24px] text-white font-semibold" for="">Correo</label>
+                    <input class="bg-transparent border-solid border-2 border-[#7edfa3] rounded-[10px] text-white text-[20px] px-[10px] mb-[20px]" type="email" name="email" id="" placeholder="Ejemplo@gmail.com">
+                </div>
+
+                <div>
+
+                    <label class="text-[24px] text-white font-semibold" for="">Fecha de Nacimiento</label>
+                    <input class="bg-transparent border-solid border-2 border-[#7edfa3] rounded-[10px] text-white text-[20px] px-[10px] mb-[20px] w-[180px]" type="date" name="fecha" id="">
+                </div>
+
+            </div>
+
+            <label class="text-[24px] text-white font-semibold" for="">Direccion</label>
+            <input class="bg-transparent border-solid border-2 border-[#7edfa3] rounded-[10px] text-white text-[20px] px-[10px] mb-[20px]" type="text" name="direccion" placeholder="Edificio, casa, calle, urbanizacion...">
+        </form>
+
+        <div class="h-[90px] w-full flex justify-center items-center bg-[#b2e4c4] border-t-4 border-solid border-[#6dbe8c]">
+            <button class="bg-[#2c6843] border-solid border-4 border-[#6dbe8c] rounded-[10px] py-[10px] text-[28px] text-[#d8ffe6] font-bold w-[35%] text-">Enviar</button>
+        </div>
+    </div>
+    
+</body>
+</html>

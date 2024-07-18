@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gibson</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<body>
+    <header class="h-[150px] w-full bg-[#e7e7e7] border-b-8 border-solid border-[#5c0a0a] flex justify-between items-center pr-[40px] pb-[20px] xl:items-end">
+        <img class="w-[180px] h-[100px] mt-[20px]" src="img/R.png" alt="">
+        
+        <div class="flex gap-[10px] justify-between xl:gap-[50px]">
+            <button class="text-[22px] font-bold text-[#A10808] hover:underline hover:text-[#5c0a0a] xl:text-[40px]">Destacadas</button>
+
+            <button class="text-[22px] font-bold text-[#000000] hover:underline hover:text-[#5c0a0a] xl:text-[40px]">Electricas</button>
+
+            <button class="text-[22px] font-bold text-[#A10808] hover:underline hover:text-[#5c0a0a] xl:text-[40px]">Acusticas</button>
+        </div>
+
+        <div class="rounded-[10px] hover:bg-[#05050515] p-[5px] xl:flex gap-[20px] items-center">
+            <img class="w-[50px] h-[50px] " src="img/carro-de-la-compra.png" alt="">
+
+            <h2 class="hidden text-[24px] text-[#A10808] xl:block font-bold">Carrito</h2>
+
+        </div>
+    </header>
+
+    <main class="w-full h-[600px] bg-[#A10808] flex flex-col items-center py-[50px] gap-[40px] border-b-8 border-solid border-[#5c0a0a]">
+
+        <img class="w-[1000px] h-[500px] 2xl:w-[1500px] 2xl:h-[900px] " src="img/R.png" alt="">
+
+        <h1 class="text-[35px] text-[#e7e7e7] font-bold lg:hidden">Marca #1 en Guitarras Profecionales</h1>
+    </main>
+
+    <section class="w-full h-auto bg-[#e7e7e7] flex flex-col justify-start items-center xl:flex-row xl:justify-between xl:px-[80px] pb-[50px] xl:gap-[20px]">
+
+        <h1 class="text-[#eb0000] text-center text-[62px] font-black xl:text-[80px] animate__animated animate__flash animate__delay-3s	animate__infinite animate__fast">GUITARRAS DESTACADAS</h1>
+
+        <div class="flex flex-col mt-[50px] py-[10px] px-[20px] rounded-[10px] items-center hover:bg-[#5208082d] hover:text-[#ecd9d9]" data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <img class="w-[250px] h-[700px]" src="img/guitar 2.png" alt="">
+
+            <p class="text-[24px] text-[#A10808] font-bold">Guitar Electric Les Paul Classic</p>
+
+        </div>
+
+        <div class="flex flex-col mt-[50px] py-[10px] px-[20px] rounded-[10px] items-center hover:bg-[#9c550341] hover:text-[#ecd9d9]" data-aos="fade-left" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <img class="w-[250px] h-[700px]" src="img/Guitar3.png" alt="">
+            
+            <p class="text-[24px] text-[#9c5503] font-bold">Guitar Electric Les Paul Modern</p>
+
+        </div>
+
+        <div class="flex flex-col mt-[50px] py-[10px] px-[30px] rounded-[10px] items-center hover:bg-[#cc070741] hover:text-[#ecd9d9] mb-[50px] xl:mb-[0px]" data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <img class="w-[250px] h-[700px]" src="img/Guitar4.png" alt="">
+            
+            <p class="text-[24px] text-[#A10808] font-bold">Guitar Electric SG Modern</p>
+
+        </div>
+
+    </section>
+
+    <section class="py-[20px] h-[700px] box-content bg-[url('img/Guitarrista.png')] bg-no-repeat bg-center bg-black flex lg:items-center  items-center justify-center">
+
+        <div class="flex-col flex items-center w-[550px] justify-start px-[10px] lg:flex-row lg:px-[50px] lg:items-center lg:w-full" data-aos="zoom-in" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+
+            <div class="flex items-center justify-center h-auto lg:flex-col gap-[10px] pb-[10px]">
+                <h1 class="text-[#eb0000] text-[62px] font-black lg:text-[80px] ">Quienes <br> Somos?</h1>
+
+            </div>
+            <div class="bg-[#000000bd] p-[10px] rounded-[10px] w-auto">
+
+                <p class="text-[#ffc9c9] font-semibold text-[22px] text-justify lg:mt-[20px]">Gibson es una marca icónica de guitarras fundada en 1902 por Orville Gibson en Kalamazoo, Michigan, famosa por modelos legendarios como la Les Paul, SG, y ES-335, que han dejado una huella imborrable en géneros musicales como el rock, blues y jazz. Reconocida por sus innovaciones en el diseño de guitarras eléctricas de cuerpo sólido y su enfoque en la calidad y el tono distintivo, Gibson ha sido la elección de muchos músicos influyentes a lo largo de las décadas. A pesar de enfrentar desafíos recientes, Gibson sigue siendo un pilar en la industria musical, produciendo instrumentos de alta calidad que continúan inspirando a músicos de todo el mundo.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>
